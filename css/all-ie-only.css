@@ -1,0 +1,20 @@
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active){
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+        -o-transition: translateX(0%);
+        -moz-transition: translateX(0%);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+
+        -webkit-transform: translateX(-0%);
+        transform: translateX(-0%);
+        -o-transition: translateX(-0%);
+        -moz-transition: translateX(-0%);
+    }
+}
+
+
